@@ -1,0 +1,27 @@
+### Get All Users
+GET http://localhost:4000/api/users
+
+### Create New User
+POST http://localhost:4000/api/users
+Content-Type: application/json
+
+{
+  "name": "Sparsh Bansal",
+  "email": "sparsh@example.com",
+  "age": 20
+}
+
+### Get User by ID
+GET http://localhost:4000/api/users/6ae8d64f95f83bc8dde354d7
+
+### Update User
+PUT http://localhost:4000/api/users/6ae8d64f95f83bc8dde354d7
+Content-Type: application/json
+
+{
+  "name": "Sparsh Bansal Updated",
+  "age": 21
+}
+
+### Delete User
+DELETE http://localhost:4000/api/users/6ae8d64f95f83bc8dde354d7
